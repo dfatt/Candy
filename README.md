@@ -30,19 +30,19 @@ Candy — это бесплатный движок с открытым кодо�
   $db['default']['dbdriver'] = 'mysql';
   ```
 5. Затем выполните скрипт (обычно это можно сделать через phpMyAdmin):
-  ```
-  CREATE TABLE `posts` (
-    `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-    `caption` text,
-    `description` text,
-    `directory` varchar(11) DEFAULT NULL,
-    `source` text,
-    `type` varchar(10) DEFAULT NULL,
-    `tags` text,
-    `date_create` datetime DEFAULT NULL,
-    PRIMARY KEY (`id`)
-  ) ENGINE=InnoDB AUTO_INCREMENT=150 DEFAULT CHARSET=utf8;
-  ```
+```sql
+CREATE TABLE `posts` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `caption` text,
+  `description` text,
+  `directory` varchar(11) DEFAULT NULL,
+  `source` text,
+  `type` varchar(10) DEFAULT NULL,
+  `tags` text,
+  `date_create` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=150 DEFAULT CHARSET=utf8;
+```
 
 Зайдите по этому адресу, для начала работы с вашим сайтом:
 http://ваш_сайт.com/admin
