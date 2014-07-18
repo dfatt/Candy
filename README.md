@@ -30,7 +30,7 @@ Candy — это бесплатный движок с открытым кодо�
   $db['default']['dbdriver'] = 'mysql';
   ```
 5. Затем выполните скрипт (обычно это можно сделать через phpMyAdmin):
-  ```mysql
+  ```
   CREATE TABLE `posts` (
     `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
     `caption` text,
