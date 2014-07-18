@@ -1,0 +1,25 @@
+body { font-family: 'PT Sans', 'Droid Sans', Arial, Helvetica, sans-serif; font-size: 14px; background-image: url(../images/content_bg.png); }
+
+.content { 
+	margin: auto;
+	padding-top: 107px;
+	width: 435px;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+.form {
+	background-color: #EEE;
+	border-radius: 5px;
+	padding-left: 14px;
+	padding-top: 14px;
+	height: 217px;
+}
+
+.form input[type="submit"] {
+	margin-left: 173px;
+	font-size: 16px;
+}

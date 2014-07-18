@@ -1,0 +1,129 @@
+html { 
+  background: url('../images/site_bg.png'); 
+}
+
+
+body { 
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif; 
+}
+
+
+.head {
+  margin-top: 20px;
+  text-align: center;
+  border-bottom: 1px solid #444;
+  padding-top: 15px;
+  padding-bottom: 31px;
+  margin-bottom: 42px;
+}
+
+
+.container {
+  margin: auto;
+  width: 935px;
+}
+
+
+.content {
+  width: 1000px;
+}
+
+
+.content .post {
+  background-color: #222;
+  width: 300px;
+  float: left;
+  margin-right: 18px;
+  margin-bottom: 18px;
+  /*border-radius: 3px;*/
+}
+
+
+.content .post img {
+  padding-left: 11px;
+  padding-top: 11px;
+}
+
+
+.content .post ul.tags {
+  list-style-type: none;
+  font-size: 11px;
+  padding-left: 12px;
+  padding-bottom: 14px;
+}
+
+
+.content .post ul.tags li {
+  float: left;
+  padding-right: 15px;
+}
+
+
+.content .post ul.tags a {
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  /*color: #8ac0ed;*/
+  color: #fff;
+}
+
+
+.content .full_post {
+  margin-right: 65px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+
+.content .full_post img {
+  box-shadow: 0 0 5px rgba(5, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+.pagination { 
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 12px;
+  position: relative;
+  top: 25px;
+  padding-bottom: 35px;
+  float: left;
+  width: 935px;
+}
+
+
+.pagination .ar a {
+  text-decoration: none;
+}
+
+
+.pagination strong {
+  color: #000;
+  border-radius: 3px;
+  background: #fff;
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 4px;
+  margin-left: 10px;
+  font-weight: normal;
+}
+
+
+.pagination a, strong {
+  color: white;
+  padding-left: 10px;
+}
+
+
+.footer {
+  float: left;
+  width: 935px;
+  color: #666;
+  font-size: 14px;
+  height: 49px;
+  border-top: 1px solid #444;
+  padding-top: 30px;
+  /*margin-top: 25px;*/
+  padding-left: 8px;
+}
+
+.footer .candy_logo {
+  float: right;
+  margin-right: 8px
+}

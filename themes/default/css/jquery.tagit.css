@@ -1,0 +1,71 @@
+ul.tagit {
+	padding: 6px 5px;
+	overflow: auto;
+	margin-left: inherit;
+	margin-right: inherit;
+	margin-top: -23px;
+	background: white;
+	border: 1px solid #CCC;
+	border-radius: 5px; 
+	height: auto;
+	width: 790px;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+ul.tagit li {
+	display: block;
+	float: left;
+	margin: 2px 5px 2px 0;
+}
+ul.tagit li.tagit-choice {
+	padding: .2em 18px .2em .5em;
+	position: relative;
+	line-height: inherit;
+	border-radius: 2px;
+	border: 1px solid #CAD8F3;
+	background-color: #DEE7F8;
+	color: #555;
+}
+ul.tagit li.tagit-new {
+	padding: .25em 4px .25em 0;
+}
+
+ul.tagit li.tagit-choice a.tagit-label {
+	cursor: pointer;
+	text-decoration: none;
+}
+ul.tagit li.tagit-choice .close {
+	cursor: pointer;
+    position: absolute;
+    right: .1em;
+    top: 50%;
+    margin-top: -7px;
+}
+
+/* used for some custom themes that don't need image icons */
+ul.tagit li.tagit-choice .close .text-icon {
+    padding-right: 4px;
+}
+
+ul.tagit li.tagit-choice input {
+	display: block;
+	float: left;
+	margin: 2px 5px 2px 0;
+}
+ul.tagit input[type="text"] {
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:         border-box;
+
+    border: none;
+	margin: 0;
+	padding: 0;
+	width: inherit;
+	background-color: inherit;
+    outline: none;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
