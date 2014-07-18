@@ -41,7 +41,7 @@ CREATE TABLE `posts` (
   `tags` text,
   `date_create` datetime DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=150 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
 ```
 
 Зайдите по этому адресу, для начала работы с вашим сайтом:
