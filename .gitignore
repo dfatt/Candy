@@ -36,10 +36,6 @@
 thumbs.db
 Thumbs.db
 .idea
-app/logs/*
-storage/works/*
-storage/sources/*
-storage/attachments/*
-.htpasswd
-robots.txt
-google2beb7493d6b75333.html
+vendor
+composer.phar
+composer.lock
