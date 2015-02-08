@@ -1,3 +1,20 @@
+DirectoryIndex frontend.php
 RewriteEngine on
-RewriteCond $1 !^(index\.php|images|uploads|theme|user_guide|robots\.txt)
-RewriteRule ^(.*)$ /index.php/$1 [L]
+RewriteBase /
+# Hide the application and system directories by redirecting the request to index.php
+RewriteCond $1 !^(frontend\.php|backend\.php|images|robots\.txt)
+
+# If the user types just "backend".
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^backend$ backend\.php [L,QSA]
+
+# If the user enter in any backend section, like "backend/section".
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^backend/(.*)$ backend\.php/$1 [L,QSA]
+
+# If the user types any site section, like "frontend/section".
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ frontend\.php/$1 [L,QSA]
