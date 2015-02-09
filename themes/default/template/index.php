@@ -1,3 +1,4 @@
+<?php print_r($posts)?>
 <?php foreach ($posts as $post): ?>
 
 <div class="post">

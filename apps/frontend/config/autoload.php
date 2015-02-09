@@ -37,7 +37,7 @@
 |
 */
 
-$autoload['packages'] = array();
+$autoload['packages'] = ['framework/candy'];
 
 
 /*
@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('image_moo', 'Layout', 'Preferences');
+$autoload['libraries'] = ['image_moo', 'Preferences', 'Layout', 'EloquentWrap'];
 
 /*
 | -------------------------------------------------------------------
@@ -109,6 +109,3 @@ $autoload['language'] = array();
 */
 
 $autoload['model'] = array();
-
-/* End of file autoload.php */
-/* Location: ./application/config/autoload.php */

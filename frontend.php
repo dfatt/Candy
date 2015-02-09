@@ -18,7 +18,7 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-	define('ENVIRONMENT', 'production');
+	define('ENVIRONMENT', 'development');
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
@@ -56,7 +56,7 @@ if (defined('ENVIRONMENT'))
  * as this file.
  *
  */
-	$system_path = 'framework';
+	$system_path = 'framework/codeigniter';
 
 /*
  *---------------------------------------------------------------
@@ -72,7 +72,7 @@ if (defined('ENVIRONMENT'))
  * NO TRAILING SLASH!
  *
  */
-	$application_folder = './apps/frontend';
+	$application_folder = 'apps/frontend';
 
 /*
  * --------------------------------------------------------------------
@@ -190,6 +190,14 @@ if (defined('ENVIRONMENT'))
 
 		define('APPPATH', BASEPATH.$application_folder.'/');
 	}
+
+/*
+ * --------------------------------------------------------------------
+ * LOAD THE COMPOSER AUTOLOAD FILE
+ * --------------------------------------------------------------------
+ */
+
+require FCPATH . 'vendor/autoload.php';
 
 /*
  * --------------------------------------------------------------------

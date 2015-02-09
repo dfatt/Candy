@@ -1,5 +1,4 @@
 <?php  
-if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 class CANDY_Controller extends CI_Controller {
 
@@ -16,6 +15,3 @@ class CANDY_Controller extends CI_Controller {
         
     }
 }
-
-/* End of file CANDY_Controller.php */
-/* Location: .system/application/core/CANDY_Controller.php */
